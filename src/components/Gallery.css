@@ -1,0 +1,61 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center title vertically */
+  text-align: center;
+  margin: 20px 0; /* Add some space above and below */
+  padding: 0; /* Remove unnecessary padding */
+  height: auto; /* Allow it to take up natural height */
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next row */
+  gap: 20px; /* Spacing between cards */
+  justify-content: center; /* Center the cards */
+  margin: 20px; /* Add space around the grid */
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc; /* Fixed typo: use lowercase 'px' */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 300px; /* Fixed width for cards */
+}
+
+.image-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  background-color: brown;
+  color: beige;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: darkred;
+}
+.no-images{
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  
+
+}
